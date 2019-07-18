@@ -1,0 +1,108 @@
+body
+{
+    background-color: #073433;
+}
+
+.cards-bg
+{
+    margin: 120px;
+    background-image: url("/upload/matrix.png");
+    border-radius: 20%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.card-project
+{
+    background-color: #073433;
+    color: white;
+    width: 50vw;
+    border-style: none;
+}
+
+.right
+{
+    left: 40vw;
+    transition: 0.3s;
+    border-radius: 40% 0% 0% 40%;
+}
+
+.left
+{
+    left: -5vw;
+    transition: 0.3s;
+    border-radius: 0% 40% 40% 0%;
+
+}
+
+.right:hover
+{
+    left: 35vw;
+}
+
+.left:hover
+{
+    left: -1vw;
+}
+
+.fixed-btn
+{
+    position: fixed;
+    border-radius: 100%;
+    top: 0px;
+    left: 20px;
+}
+
+.project-pic
+{
+    width: 10vw;
+    height: 10vw;
+}
+
+@media only screen and (max-width: 600px) 
+{
+    .project-pic
+    {
+        width: 100%;
+        height: auto;
+    }
+    .card-project
+    {
+        width: 70vw;
+    }
+
+    .right
+    {
+        left: -25vw;
+        border-radius: 0%;
+    }
+
+    .left
+    {
+        left: -25vw;
+        border-radius: 0%;
+    }
+
+    .right:hover
+    {
+        left: -25vw;
+        background-color: #17BEBB;
+    }
+
+    .left:hover
+    {
+        left: -25vw;
+        background-color: #17BEBB
+    }
+
+    .cards-bg
+{
+    margin: 120px;
+    background-color:#073433;
+    border-radius: 20%;
+    background-image: none;
+
+}
+}

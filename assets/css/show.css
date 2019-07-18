@@ -1,0 +1,51 @@
+body
+{
+    background-color: #17BEBB;
+}
+
+.card-project
+{
+    background-color: #073433;
+    color: white;
+}
+
+.project-pic
+{
+
+}
+
+.fixed-btn
+{
+    position: fixed;
+    border-radius: 100%;
+    top: 0px;
+    left: 20px;
+
+}
+
+.fixed-btn-2
+{
+    position: fixed;
+    border-radius: 100%;
+    top: 0px;
+    left: 120px;
+
+}
+
+.title
+{
+    text-align: center;
+    border-bottom-style: solid;
+    border-bottom-color: white;
+}
+
+.description
+{
+    text-align: center;
+    font-size: 1rem;
+}
+
+.project-date
+{
+    text-align: center;
+}
